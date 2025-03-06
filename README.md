@@ -4,18 +4,18 @@
 The **3D Basketball Shooting Game** is an interactive web-based game developed using **X3DOM, JavaScript, HTML, and CSS**. It features realistic shooting mechanics, an interactive 3D scoreboard, dynamic controls, and a toggleable day/night mode. Players can adjust shooting angle and power, switch positions, and shoot dynamically, with physics-based ball trajectory calculations.
 
 ## Features
-### 🏀 Shooting Mechanics
+### Shooting Mechanics
 - **Player Positioning:** Switch between **free-throw** and **3-point line** positions.
 - **Angle & Power Control:** Adjustable sliders to fine-tune shots.
 - **Realistic Physics:** Gravity-based parabolic trajectory simulation.
 - **Trajectory Preview:** Visual indicators to predict the ball's flight.
 
-### 📊 Scoreboard & Feedback
+### Scoreboard & Feedback
 - **3D Billboard Scoreboard:** Updates dynamically based on score and misses.
 - **In-Window UI Scoreboard:** Displays real-time game statistics.
 - **Sound Effects:** Cheers on successful shots, boos on missed shots.
 
-### 🎮 Scene & Camera Controls
+### Scene & Camera Controls
 - **Toggle Day/Night Mode:** Adjust lighting dynamically.
 - **Multiple Camera Angles:**
   - `1` → Front View
@@ -39,7 +39,7 @@ The **3D Basketball Shooting Game** is an interactive web-based game developed u
 1. Download x3d
 2. Clone this repository.
 3. Navigate to the project folder.
-4. Open `index.html` in your browser.
+4. Open `basketball.html` in your browser.
 
 ## Code Highlights
 ### Ball Physics & Shooting Mechanics (`shootBall()`)
@@ -68,9 +68,6 @@ The **3D Basketball Shooting Game** is an interactive web-based game developed u
 - **Physics-based net interactions**.
 - **Multiplayer mode**.
 - **Leaderboard system**.
-
-## License
-This project is licensed under the MIT License.
 
 ## Author
 **lolwyer**
