@@ -36,38 +36,33 @@ The **3D Basketball Shooting Game** is an interactive web-based game developed u
 | **CSS** | Styling & responsive design |
 
 ## Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/3D-Basketball-Game-X3DOM.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd 3D-Basketball-Game-X3DOM
-   ```
-3. Open `index.html` in your browser.
+1. Download x3d
+2. Clone this repository.
+3. Navigate to the project folder.
+4. Open `index.html` in your browser.
 
 ## Code Highlights
-### 🏀 Ball Physics & Shooting Mechanics (`shootBall()`)
+### Ball Physics & Shooting Mechanics (`shootBall()`)
 - Calculates **velocity & trajectory** using physics.
 - Handles **rim bounces, backboard interactions, and scoring detection**.
 - Updates **ball movement** at high frame rates for smooth animation.
 
-### 📊 Dynamic Scoreboard (`updateScoreboard()`)
+### Dynamic Scoreboard (`updateScoreboard()`)
 - Updates **HTML & 3D floating scoreboard**.
 - Provides **visual & color feedback** based on shot results.
 
-### 🔮 Real-Time Trajectory Preview (`updateTrajectory()`)
+### Real-Time Trajectory Preview (`updateTrajectory()`)
 - Predicts **shot path** before execution.
 - Updates dynamically as **angle & power** change.
 
-### 🌗 Toggle Day/Night Mode (`toggleDayNight()`)
+### Toggle Day/Night Mode (`toggleDayNight()`)
 - Adjusts **lighting, sky color, and court brightness**.
 - Press `W` to switch modes instantly.
 
 ## Screenshots
-![Gameplay Screenshot](x3dom-trajectory.jpg)
-![Scene Graph Screenshot](x3dom-scene.jpg)
-![Front View Screenshot](x3dom-front-view.jpg)
+![Gameplay Screenshot](x3dom-trajectory.png)
+![Scene Graph Screenshot](x3dom-scene.png)
+![Front View Screenshot](x3dom-front-view.png)
 
 ## Future Enhancements
 - **Physics-based net interactions**.
